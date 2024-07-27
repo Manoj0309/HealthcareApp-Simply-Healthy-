@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/home"
+            android:title="Lab test" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Find Doctor" />
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/widgets"
+            android:title="Health Articles" />
+        <item
+            android:id="@+id/nav_orderdetails"
+            android:icon="@drawable/widgets"
+            android:title="Order Details" />
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/icons5"
+            android:title="Timer" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Profile">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/info"
+                    android:title="Logout" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/chat"/>
+
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

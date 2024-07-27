@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "325627304102",
+    "firebase_url": "https://simply-healthy-firebase-default-rtdb.firebaseio.com",
+    "project_id": "simply-healthy-firebase",
+    "storage_bucket": "simply-healthy-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325627304102:android:954a60a08790cbd7eafc67",
+        "android_client_info": {
+          "package_name": "com.dev.simplyhealthy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWME8As_0UqK3c_j2pyNJlK3evCpvi4Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

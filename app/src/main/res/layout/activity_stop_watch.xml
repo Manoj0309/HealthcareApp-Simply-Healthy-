@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/stop1"
+    tools:context=".StopWatchActivity">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="209dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="189dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="52sp"
+        android:textStyle="bold|bold|bold|bold|bold|bold|bold|bold|bold|bold" />
+
+    <Button
+        android:layout_width="106dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="339dp"
+        android:gravity="center"
+        android:onClick="startChronometer"
+        android:text="START"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginBottom="266dp"
+        android:gravity="center"
+        android:onClick="pauseChronometer"
+        android:text="PAUSE"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="190dp"
+        android:gravity="center"
+        android:onClick="resetChronometer"
+        android:text="RESET"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

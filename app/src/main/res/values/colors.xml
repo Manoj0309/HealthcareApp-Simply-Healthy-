@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorhite" />
+    <color name="colorthite" />
+
+<!---    Demo Colors-->
+    <color name="colorOnPrimaryDemo">#fff</color>
+    <color name="colorPrimaryDemo">#554911</color>
+    <color name="colorPrimaryLightDemo">#EEE3AB</color>
+    <color name="colorAccentDemo">#665815</color>
+
+
+
+</resources>

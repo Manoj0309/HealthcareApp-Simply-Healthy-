@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pushups2"
+    tools:context=".GymdetailActivity">
+
+  <TextView
+      android:id="@+id/textViewDDName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:editable="false"
+      android:minHeight="48dp"
+      android:text="GYM"
+      android:textColor="@android:color/black"
+      android:textSize="31sp"
+      android:textStyle="bold|italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.064" />
+
+  <TextView
+      android:id="@+id/textViewTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="START YOUR DAY..."
+      android:textColor="@color/design_default_color_primary_variant"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+      app:layout_constraintVertical_bias="0.019" />
+
+  <TextView
+      android:id="@+id/textViewLDPackageName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="PUSHUPS"
+      android:textColor="@color/colorAccentDemo"
+      android:textSize="20sp"
+      android:textStyle="bold|italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+      app:layout_constraintVertical_bias="0.079" />
+
+
+  <Button
+      android:id="@+id/buttonLDAddToCart"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="START"
+      android:textColor="@color/white"
+      android:textStyle="bold|italic"
+      app:layout_constraintBottom_toTopOf="@+id/buttonLDBack"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/buttonLDBack"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="48dp"
+      android:text="BACK"
+      android:textColor="@color/white"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.501"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <EditText
+      android:id="@+id/editTextLDTextMultiLine"
+      android:layout_width="289dp"
+      android:layout_height="347dp"
+      android:layout_marginTop="20dp"
+
+      android:editable="false"
+      android:ems="10"
+      android:gravity="start|top"
+      android:inputType="textMultiLine"
+      android:padding="10dp"
+      android:text="1) On the ground, set your hands at a distance that is slightly wider than shoulder-width apart.
+       \n\n2) To alleviate wrist pain \n\n3) Your feet should be set up in a way that feels right and comfortable and in balance.
+\n\n4) Think of your body as one giant straight line. \n\n5) Your head should be looking slightly ahead of you, not straight down. \n\n6) At the top of your push-up, your arms should be straight and supporting your weight. "
+      android:textAllCaps="false"
+
+      android:textColor="@color/black"
+
+      android:textStyle="bold|italic"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewLDPackageName"
+      tools:ignore="Deprecated,MissingConstraints" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

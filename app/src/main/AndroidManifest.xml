@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Simplyhealthy"
+        tools:targetApi="31">
+        <activity
+            android:name=".QRCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AerobicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BenchpressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SquatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PilatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SitupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GymtimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SphinxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WheelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScarpionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YogainfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GymdetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YogaTimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GymActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YogaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StopWatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthArticlesDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".typeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MAlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlarmMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LaTestBookAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".CartLabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyReceiver" />
+    </application>
+
+</manifest>
